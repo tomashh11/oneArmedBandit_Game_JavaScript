@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>One-Armed Bandit</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrap">
+    <h1>Jednoręki Bandyta</h1>
+    <section class="game">
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+    </section>
+    <section class="play">
+        <input type="number" placeholder="Podaj stawkę" id="bid">
+        <button id="start">Zakręć</button>
+    </section>
+    <section class="panel">TWOJE ŚRODKI PRZED KOLEJNĄ GRĄ TO: <span class="wallet"></span></section>
+    <section class="score">
+        <span class="result"></span> Za Tobą <span class="number"></span> gier, w tym <span class="win"></span> wygranych i <span class="loss"></span> przegranych </section>
+</div>
+<script src="js/Wallet.js"></script>
+<script src="js/Statistics.js"></script>
+<script src="js/Draw.js"></script>
+<script src="js/Result.js"></script>
+<script src="js/Game.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
