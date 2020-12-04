@@ -1,3 +1,8 @@
+import Draw from './Draw';
+import Result from './Result';
+import Statistics from './Statistics';
+import Wallet from './Wallet';
+
 class Game {
     constructor(startMoney) {
         this.statistics = new Statistics();
@@ -65,3 +70,5 @@ class Game {
 
     };
 }
+
+export default Game;

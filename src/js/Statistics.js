@@ -23,5 +23,6 @@ class Statistics {
 
         return [numberOfGames, numberOfWins, numberOfLosses];
     };
-
 }
+
+export default Statistics;
